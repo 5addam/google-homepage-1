@@ -20,12 +20,12 @@ a {
   margin: 0 0.5rem;
 }
 
-a:visited,
-a:focus {
-  color: inherit;
-}
-
 /*HEADER STYLE*/
+
+.plain_link:visited,
+.plain_link:focus {
+  color: #222 !important;
+}
 
 .plain_link:hover {
   text-decoration: underline;
@@ -78,12 +78,15 @@ li {
 .btn {
   display: block;
   position: relative;
-  background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(67, 135, 253),
+    rgb(70, 131, 234)
+  );
   border: 1px solid rgb(66, 133, 244);
   border-radius: 2px;
   margin-left: 15px;
 }
-
 
 .sign_link {
   display: inline-block;
@@ -94,7 +97,6 @@ li {
   text-align: left;
   padding: 0 12px;
   margin: 0;
-
 }
 
 .sign_link:visited {
@@ -136,7 +138,7 @@ main {
 }
 
 .search_icon {
-  color: #9AA0A6;
+  color: #9aa0a6;
   height: 20px;
   width: 20px;
 }
@@ -175,8 +177,8 @@ input:focus {
 }
 
 .mic_icon {
-  background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
-  ;
+  background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png)
+    0 0 no-repeat;
   height: 24px;
   width: 24px;
   background-size: 24px;
@@ -185,7 +187,7 @@ input:focus {
 
 .boxes {
   display: flex;
-  color: #5F6368;
+  color: #5f6368;
   margin: 11px 4px;
   cursor: pointer;
   user-select: none;
@@ -206,6 +208,10 @@ input:focus {
   font-size: 14px;
 }
 
+.box_link:visited {
+  color: #5f6368;
+}
+
 .box_link:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
@@ -213,7 +219,6 @@ input:focus {
   border: 1px solid #c6c6c6;
   color: #222;
 }
-
 
 /*FOOTER STYLE*/
 
@@ -226,7 +231,6 @@ footer {
   align-items: center;
   background: #f2f2f2;
   border-top: 1px solid #e4e4e4;
-
 }
 
 .footer_link {
