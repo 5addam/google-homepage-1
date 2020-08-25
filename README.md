@@ -2,6 +2,8 @@
 
 This project is about _trying_ to implement a mimic of **Google's** home page in response to [the Odin Project.](https://www.theodinproject.com/)🔱
 
+You can see my implementation on [here.](https://memindemir06.github.io/google-homepage/)
+
 ## Used Skills:
 
 - **HTML**
